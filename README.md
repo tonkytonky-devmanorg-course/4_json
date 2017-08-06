@@ -1,20 +1,68 @@
-# Prettify JSON
+# Форматирование JSON
 
-[TODO. There will be project description]
+Скрипт принимает первым аргументов путь до файла, содержащего текст в формате JSON и печатает его в консоль в отформатированном виде.  
 
-# Quickstart
 
-[TODO]
+# Как использовать
 
-Example of script launch on Linux, Python 3.5:
+Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
+
+Запуск на Linux:
 
 ```#!bash
-
 $ python pprint_json.py <path to file>
-# TODO add output example
-
+[
+    {
+        "Cells": {
+            "Address": "улица Академика Павлова, дом 10",
+            "AdmArea": "Западный административный округ",
+            "ClarificationOfWorkingHours": null,
+            "District": "район Кунцево",
+            "IsNetObject": "да",
+            "Name": "Ароматный Мир",
+            "OperatingCompany": "Ароматный Мир",
+            "PublicPhone": [
+                {
+                    "PublicPhone": "(495) 777-51-95"
+                }
+            ],
+            "TypeService": "реализация продовольственных товаров",
+            "WorkingHours": [
+                {
+                    "DayOfWeek": "понедельник",
+                    "Hours": "09:30-22:30"
+                },
+                {
+                    "DayOfWeek": "вторник",
+                    "Hours": "09:30-22:30"
+                },
+                {
+                    "DayOfWeek": "среда",
+                    "Hours": "09:30-22:30"
+                },
+                {
+                    "DayOfWeek": "четверг",
+                    "Hours": "09:30-22:30"
+                },
+                {
+                    "DayOfWeek": "пятница",
+                    "Hours": "09:30-22:30"
+                },
+                {
+                    "DayOfWeek": "суббота",
+                    "Hours": "09:30-22:30"
+                },
+                {
+                    "DayOfWeek": "воскресенье",
+                    "Hours": "09:30-22:30"
+                }
+            ],
+            ...
 ```
 
-# Project Goals
+Запуск на Windows происходит аналогично.
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+
+# Цели проекта
+
+Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
