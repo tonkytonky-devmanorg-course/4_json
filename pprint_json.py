@@ -12,8 +12,7 @@ def pretty_print_json(loaded_json):
 
 
 def main():
-    args = sys.argv[1:]
-    pretty_print_json(load_json(args[0]))
+    pretty_print_json(load_json(sys.argv[1]))
 
 
 if __name__ == '__main__':
