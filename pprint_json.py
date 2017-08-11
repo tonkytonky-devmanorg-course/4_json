@@ -12,7 +12,13 @@ def pretty_print_json(loaded_json):
 
 
 def main():
-    pretty_print_json(load_json(sys.argv[1]))
+    try:
+        pretty_print_json(load_json(sys.argv[1]))
+    except IndexError:
+        print(
+            'Please, call the script with a path to a JSON file. '
+            'You need to specify the path as the first script argument.'
+        )
 
 
 if __name__ == '__main__':
